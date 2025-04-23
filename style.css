@@ -1,4 +1,6 @@
 canvas {
-    border: 1px solid #d3d3d3;
-    background-color: #636161;
+    border: 1px solid black;
+    display: block;
+    margin: 0 auto;
 }
+
