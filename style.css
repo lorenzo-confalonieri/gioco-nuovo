@@ -1,6 +1,58 @@
+/* Stile per il canvas */
 canvas {
-    border: 1px solid black;
+    border: 2px solid #000;
     display: block;
-    margin: 0 auto;
+    margin: 20px auto;
+    background-color: #f0f0f0; /* Colore di sfondo del canvas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Effetto ombra */
+}
+
+/* Stile per il corpo della pagina */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #282c34; /* Sfondo scuro */
+    color: #ffffff; /* Testo bianco */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Stile per i pulsanti */
+button {
+    background-color: #61dafb;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #21a1f1;
+}
+
+/* Stile per i titoli */
+h1, h2, h3 {
+    margin: 20px 0;
+}
+
+/* Stile per i messaggi di gioco */
+.game-message {
+    font-size: 18px;
+    margin: 15px 0;
+    padding: 10px;
+    background-color: #444;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* Stile per il footer */
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #aaa;
 }
 
